@@ -1,22 +1,22 @@
 {
-  "name": "nodejs-workspace-template",
+  "name": "learn-to-build-cli",
   "version": "1.0.0",
-  "description": "NodeJS workspace template",
+  "description": "Learn to build CLI with TypeScript",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phatnguyenuit/nodejs-workspace-template.git"
+    "url": "git+https://github.com/phatnguyenuit/learn-to-build-cli.git"
   },
   "keywords": [],
   "author": "PhatNguyen <phatnt.uit@gmail.com> (https://phatnguyenuit.github.io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/phatnguyenuit/nodejs-workspace-template/issues"
+    "url": "https://github.com/phatnguyenuit/learn-to-build-cli/issues"
   },
-  "homepage": "https://github.com/phatnguyenuit/nodejs-workspace-template#readme",
+  "homepage": "https://github.com/phatnguyenuit/learn-to-build-cli#readme",
   "workspaces": [
     "packages/*"
   ],

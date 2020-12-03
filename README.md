@@ -2,6 +2,9 @@
 
 Learn to build CLI with TypeScript
 
+## Packages
+
+- [Pizza CLI](./packages/pizza-cli/src/index.ts)
 
 ## References
 

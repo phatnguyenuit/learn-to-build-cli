@@ -1,0 +1,42 @@
+{
+  "name": "pizza-cli",
+  "version": "1.0.0",
+  "description": "Pizza CLI",
+  "main": "./lib/index.js",
+  "bin": {
+    "pizza": "./lib/index.js"
+  },
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --exec ts-node src/index.ts",
+    "create": "npm run build && npm run test",
+    "build": "tsc -p .",
+    "local": "npm i -g && pizza",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phatnguyenuit/learn-to-build-cli.git"
+  },
+  "author": "PhatNguyen <phatnt.uit@gmail.com> (https://phatnguyenuit.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phatnguyenuit/learn-to-build-cli/issues"
+  },
+  "homepage": "https://github.com/phatnguyenuit/learn-to-build-cli#readme",
+  "devDependencies": {
+    "@types/clear": "^0.1.0",
+    "@types/figlet": "^1.2.1",
+    "@types/node": "^14.14.10",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.0.5",
+    "ts-node": "^9.1.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^6.2.0",
+    "figlet": "^1.5.0",
+    "path": "^0.12.7"
+  }
+}
