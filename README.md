@@ -1,5 +1,6 @@
-# nodejs-workspace-template
-NodeJS workspace template
+# learn-to-build-cli
+
+Learn to build CLI with TypeScript
 
 
 ## References
